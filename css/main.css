@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+//	background-image:url(../../images/croad.jpg);
+    background-color:#8A0651;
+	background:center;
+	
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+*{   text-decoration:none;
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+
+}
+
+header,nav,section,aside,footer{
+    display:block;
+}
+#blackbox{
+	width:100%;
+	height:auto;
+	position:absolute;
+	opacity:0.7;
+	background-color:#A2A2A2;
+	display:none;
+	z-index:1;}
+.container{
+	background-color:transparent;
+	width:1000px;
+	height:auto;
+	margin:0px auto;
+	border:1px thin white;
+	border-radius:20px;
+    z-index:1;
+}
+
+nav ul li{
+	float:left;
+	width:198px;
+	height:35px;
+	text-align:center;
+	font-size:18px;
+	font-family:Lucida Console;
+	border:1px solid #027680;
+	background-color:#9CF;
+	text-decoration:none;
+	margin:0px;
+	padding-bottom:7px;
+	padding-top:15px;
+	border-radius:20px;
+}
+nav ul li a{
+	color:#5050A0;
+	font-size:22px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+nav ul li a:active{
+	font-size:25px;
+//	background-color:#2C5656;
+}
+nav ul li a:hover{
+	color:#8A0651;
+	font-size:25px;
+}
+nav ul li a:visited{
+	font-size:25px;
+}
+/*#login{
+	width:200px;
+	height:300px;
+	border:1px solid black;}*/
+header div{
+	margin-left:40px;
+	color:#5050A0;
+	font-size:150px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+	width:500px;
+	height:200px;
+}
+.logo{
+	float:right;
+	width:400px;
+	height:200px;
+	margin-top:1px;
+}
+
+.sec{
+	text-decoration:none;
+	float:left;
+	width:298px;
+	height:auto;
+	border:1px solid #5050A0;
+	margin-top:70px;
+}
+.sec h1{
+	text-align:center;
+	font-family:sans-serif;
+	font-size:25px;
+	font-weight:500;
+	color:#000066;}
+.data{
+	display:right;
+	margin-top:70px;
+	margin-left:300px;
+	width:698px;
+	height:2060px;
+	border:1px solid white;
+}
+/*.sec ul li {
+	text-decoration:none;
+	text-align:center;
+	border-bottom:1px solid #5050A0;
+	border-radius:10px;
+	padding:6px 70px;
+	width:157px;
+	height:28px;
+  }
+  
+.sec ul li a:hover{
+	text-decoration:none;
+	color:#8A0651;
+	font-size:25px;
+//	border:1px solid white;
+	height:50px;
+}
+.sec ul li a:active{
+	color:#FF6;
+	font-size:25px;
+	height:50px;
+//	border:1px solid white;
+}*/
+.foot{
+	
+	width:1000px;;
+	height:70px;
+	margin-top:10px;
+	display:inline-table;
+	border:1px solid #5050A0;
+}
+.foot div{
+	width:auto;
+	height:40px;
+	
+    float:left;
+    border:1px solid #CF0;
+    border-radius:10px;
+	margin-left:5px;
+}
+.foot div:first-child{
+	
+	font-family:Open sans , Arial;
+	font-weight:100;
+	font-size:25px;
+	width:200px;
+	height:50px;
+	border:none;
+}
+.box{
+	float:left;
+	width:220px;
+	height:240px;
+	margin:5px;
+	background-color:#9CF;	
+	border:0px solid #5050A0;
+	border-bottom-width:5px;
+	border-right-width:2px;
+    border-radius:8px;
+}
+.brandname{
+	font-family:sans-serif;
+	font-size:22px;
+	text-align:center;
+}
+.data ul li{
+	font-size:17px;
+	font-family:sans-serif;
+	margin:10px 20px;
+}
+#dataul{
+	margin-top:20px;
+}
+.brandlogo {
+	width:220px;
+	height:140px;
+	text-align:center;
+	padding-top:20px;
+}

@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+}
+.brand_data{
+	margin:0px auto;
+	width:1000px;
+	height:auto;
+	border:1px solid black;
+}
+.brandheader{
+	margin:0px auto;
+	width:1000px;
+	height:300px;
+	border:1px solid red;
+}
+.logo_img{
+	width:300px;
+	height:200px;
+	float:left;
+//	border:1px solid green;
+    padding-top:8px;
+}
+.logo_name{
+	width:600px;
+	height:150px;
+	float:left;
+	font-size:100px;
+	text-align:center;
+	padding-top:50px;
+//	border:1px solid pink;
+}
+/*.logo_img img{
+	width:300px;
+	height:200px;}*/
+.brandinfo{
+	width:900px;
+	height:auto;
+	text-align:start;
+	font-size:15px;
+	font-weight:400;
+	padding-left:2px;
+	padding-right:2px;
+	font-family:"Courier New", Courier, monospace;
+//	border:1px solid #0000FF;
+}
+p{
+	margin-top:10px;
+	text-align:center;
+	font-size:40px;
+}
+.bran_car{
+	width:900px;;
+	height:150px;
+	margin:20px auto;
+	background-color:#CCCCCC;
+	border-radius:10px;
+//	border:1px solid black;}
+.car-pic{
+	width:250px;
+	height:125px;
+//	border:1px solid black;
+	padding:10px;
+	}
+.car-data{
+	
+	width:400px;
+	height:130px;
+	float:right;
+	font-size:40px;
+	margin-top:-130px;
+	margin-right:100px;
+//	border:1px solid black;
+}

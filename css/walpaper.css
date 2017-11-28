@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.viewpoint{
+	float:left;
+	width:350px;
+	height:450px;
+	position:relative;
+	z-index:2;
+	border:1px solid black;}
+.dark-background{
+	display:none;
+	width:350px;
+	height:450px;
+	background-color:#A0A0A0;
+	z-index:1;}
+/*.viewpoint span {
+	font-family:sans-serif;
+	font-size:50px;
+	font-weight:400;
+}
+.viewpoint em{
+	font-family:"Comic Sans MS", cursive;
+	font-size:20px;
+	font-weight:400;
+}*/
+.viewpoint img{
+	width:350px;
+	height:450px;
+	box-shadow:#333333 0px 0px 5px;
+}
